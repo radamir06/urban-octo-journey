@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    
+    background: url(../img/2560x1440-midnight-green-solid-color-background.jpg) center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+    background-image: url(..//img/anna-her-simple-wave-graphic-11563149332ug5uvd1kxe.jpg);
+    -webkit-background-clip: text;
+    
+
+}
+@keyframes wave {
+from{
+    background-position: left 0 top 0;
+}
+to{
+    background-position: left 3000px top 0;
+}    
+}
+.header :hover{
+    animation: wave 30s infinite;
+}
